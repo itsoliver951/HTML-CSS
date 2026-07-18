@@ -1,0 +1,83 @@
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.pagina1 {
+
+    h1 {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pagina2 {
+
+    h1 {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pagina3 {
+
+     h1 {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.pagina4 {
+
+     h1 {
+        text-align: center;
+        font-family: Arial;
+    }
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.botao-voltar {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
